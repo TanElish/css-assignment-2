@@ -1,0 +1,80 @@
+/* Step 3: Comment out the existing styling for the li element */
+/*
+li {
+  display: inline-block;
+  width: 120px;
+}
+*/
+
+/* Previous base styles from Homework 1 */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f4f4f9;
+  color: #222222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1a365d;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* Step 4: Change nav element to inline-block with a width of ~80% */
+nav {
+  display: inline-block;
+  width: 80%;
+  background-color: #2b6cb0;
+  padding: 10px;
+}
+
+/* Step 5: Descendant selector to style only the image in the nav to width ~10% */
+nav img {
+  width: 10%;
+}
+
+main {
+  background-color: #ffffff;
+  font-size: 18px;
+  padding: 20px;
+}
+
+footer {
+  background-color: #1a365d;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #ffffff;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Step 6 & 8: Grid class styling (2-column grid ~40% each, alignment, row-gap) */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+
+/* Step 7: Descendant selector to style only images in grid class to width 100% */
+.grid img {
+  width: 100%;
+}
+
+/* Step 9: Flex class styling with flex-wrap and justify-content */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
